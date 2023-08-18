@@ -1,0 +1,91 @@
+<html>
+<head>
+  <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+    .container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    }
+    .box{
+    padding:20px 40px;
+    background-image:url(/paralex1.png);
+    border-radius: 10px;
+    }
+    .box form{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .header h1{
+    color: #ffff;
+    text-shadow:0 0.5spx block;
+    text-align: center;
+    transform: translatey(10px);
+    }
+    form{
+    padding:10px;
+    }
+    form input{
+    width: 100%;
+    padding:10px;
+    background:none;
+    color:#ffff;
+    border-bottom:1px solid #201f1f;
+    text-shadow: 0 0 5px black;
+    border-radius:5px;
+    }
+    .b1{
+    padding-top: 20px;
+    }
+    input::placeholder{
+    color:#ffff;
+    }
+
+    .button{
+    text-align: center;
+    padding-top:5px;
+    }
+    .button input{
+    padding: 8px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight:bold;
+    transition: 0.2s ease-in;
+    border:none;
+    }
+    .button input:hover{
+    transition:0.2s ease-out;
+    background-color: rgb(6,248,6);
+    }
+
+
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box">
+    <div class="header">
+      <h1>Signup</h1>
+    </div>
+    <form action="">
+      <div class="b1">
+        <input type="text" name='name' placeholder="name">
+      </div>
+      <div class="b1">
+        <input type="email" name="email" placeholder="email">
+      </div>
+      <div class="b1">
+        <input type="password" name="password" placeholder="password">
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>

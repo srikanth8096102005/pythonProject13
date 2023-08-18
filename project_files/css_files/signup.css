@@ -1,0 +1,27 @@
+ <style>
+        body{
+        background-color: #FFFFE0;
+        }
+
+        input[type=text], input[type=date], input[type=email], select {
+        width: 30%;
+        padding: 12px 20px;
+        display: inline-block;
+        }
+
+        input[type=submit], select {
+        width: 15%;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 0.5px solid #ccc;
+        background-color: green;
+        cursor:pointer;
+        }
+        div {
+        border-radius: 5px;
+        padding: 5px;
+        }
+        center{
+        border:5px solid;
+        }
+ </style>

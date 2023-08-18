@@ -1,0 +1,28 @@
+
+    <style>
+        body{
+        background-color:#FFFFE0;
+        }
+        input[type=text], select{
+        width:30%;
+        padding: 12px 20px;
+        display:inline-block
+        }
+        input[name=Cancel], select{
+        border:1px;
+        border-style:solid;
+        border-color:blue;
+        background-color:red;
+        width:15%;
+        cursor:pointer;
+        padding: 10px 15px;
+        }
+
+        input[name=Signin], select{
+        background-color:blue;
+        border:0.5px;
+        width:15%;
+        cursor:pointer;
+        padding: 10px 15px;
+        }
+    </style>

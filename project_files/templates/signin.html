@@ -1,0 +1,47 @@
+<html>
+<head>
+<!--    <link rel="stylesheet" href="../css_files/signin.css">-->
+
+    <style>
+        body{
+        background-color:#FFFFE0;
+        }
+        input[type=text], select{
+        width:30%;
+        padding: 12px 20px;
+        display:inline-block
+        }
+        input[name=Cancel], select{
+        border:1px;
+        border-style:solid;
+        background-color:#0074;
+        width:15%;
+        cursor:pointer;
+        padding: 10px 15px;
+        }
+
+        input[name=Signin], select{
+        background-color:#0007;
+        border:0.5px;
+        width:15%;
+        cursor:pointer;
+        padding: 10px 15px;
+        }
+    </style>
+</head>
+    <body>
+        <h1 align="center"> Sign in Page</h1>
+        <center>
+            <form method="POST" action="signin">
+                <label for="email">Email ID</label><br>
+                <input type='text' name="email"><br><br>
+                <label for="password">Password</label><br>
+                <input type="text" name="password"><br><br><br>
+                <a href='/forgotpassword'>Forgot password?</a><br><br>
+                <input type="submit" value="Cancel" style="color:white" name="Cancel">
+                <input type="submit" style="color:white" value="Sign in" name="Signin">
+
+            </form>
+        </center>
+    </body>
+</html>
