@@ -1,4 +1,4 @@
-from flask_mail import Mail,Message
+from flask_mail import Mail, Message
 from flask import request
 import random
 from project_files.config import app

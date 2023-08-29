@@ -1,4 +1,4 @@
-from flask import render_template
+# from flask import render_template
 from project_files.User_data import data
 from project_files.config import app
 @app.route('/', methods=['POST', 'GET'])
@@ -24,4 +24,3 @@ def set_password_user():
 
 if __name__ == '__main__':
     app.run(debug=False, port=7000)
-kmklmgkvfmdklbmfvfnfkjvnfkjvnklflmvlkfcmvklgfcmgklvfdmgklvlfdmglkvrmf

@@ -1,0 +1,9 @@
+first need to install all the requirements
+first of all need to acitvate the environment for this we can use command
+* python -m venv env_name
+* env_neme/Scripts/activate
+after that install the flask
+* pip install flask
+* pip install sql_alchemy
+after complete all those things need to run the collecter.py file
+* py collecter.py
